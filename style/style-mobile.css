@@ -1,0 +1,30 @@
+/* ----------- تنظیمات موبایل ----------- */
+@media (max-width: 600px) {
+
+    menu{
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 12px;
+    }
+    .right a{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .center{
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .center a{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    .left{
+
+        display: none;
+    }
+
+
+}
